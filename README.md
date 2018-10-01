@@ -26,10 +26,4 @@ $opt = [
 $pdo = new \PDO($dsn, $user, $pass, $opt);
 ```
 
-Pensez à installer les librairies php utiles : 
-* php-xml
-* php-imagick
-
-donnez les droits : chown -R www-data:www-data your/path/
-
 

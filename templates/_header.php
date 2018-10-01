@@ -67,14 +67,17 @@
         }
 
         a.img {
-            opacity: .4;
-            color: red;
+            color: #B52C41;
+        }
+
+        a{
+          color: #B52C41;
         }
 
         a.img:hover {
             opacity: .6;
             text-decoration: none;
-            color: red;
+            color: #B52C41;
         }
 
         a.img svg {
@@ -106,6 +109,10 @@
             pointer-events: none;
             position: relative;
         }
+
+        .title{
+          color : #B52C41;
+        }
     </style>
 </head>
 <body>
@@ -113,8 +120,7 @@
         <div class="row">
             <div class="col-md-7 mx-auto">
                 <div class="text-center mt-4 p-2">
-                    <!--<a href="https://assos.utc.fr/etusexy"><img src="simde.svg" width="200"></a>-->
-                    <a href="https://assos.utc.fr/etusexy">EtuSexy</a>
+                    <a href="https://assos.utc.fr/etusexy"><img src="etusexy.svg" width="200"></a>
                     <h2 class="my-4">Vote pour voir des culs</h2>
                 </div>
 
