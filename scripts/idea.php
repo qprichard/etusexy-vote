@@ -239,7 +239,7 @@ class Idea {
 
         foreach ($votes as $vote)
         {
-            $data+= $vote['idea'];
+            $data+= 1;
         }
 
         return $data;
@@ -287,7 +287,7 @@ class Idea {
                 }
               }
               else{
-                message('error', 'Nombre maximum de votes atteint.');
+                message('error', $this->votes_count() );
                 redirect('./');
               }
 
